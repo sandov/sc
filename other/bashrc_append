@@ -1,0 +1,3 @@
+echo 'alias up="cd ..;"' >> ~/.bashrc
+echo 'alias upup="cd ../..;"' >> ~/.bashrc
+echo 'alias vim="nvim"' >> ~/.bashrc
