@@ -2,6 +2,8 @@ wget -O firefox.tar.bz2 'https://download.mozilla.org/?product=firefox-latest-ss
 
 tar xvf firefox.tar.bz2
 
+rm firefox.tar.bz2
+
 mkdir -p ~/Documents/apps/bin/
 
 mv firefox/ ~/Documents/apps/bin/
