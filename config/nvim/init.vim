@@ -13,5 +13,26 @@ syntax enable
 set showcmd
 set ruler
 set laststatus=2
-set noshowmode
+
+" ---- Plugin section ----
+
+" Remember to install vim-plug
+" https://github.com/junegunn/vim-plug
+
+call plug#begin('~/Documents/apps/data/vim-plug/')
+
+Plug 'jacoborus/tender.vim' " theme
+
+" Plug 'itchyny/lightline.vim' " bottom bar
+" Avoid redundant mode indicator if using lightline:
+" set nowshowmode 
+
+call plug#end()
+
+" If you have vim >=8.0 or Neovim >= 0.1.5
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+colorscheme tender
 
