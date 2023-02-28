@@ -25,7 +25,7 @@ Plug 'jacoborus/tender.vim' " theme
 
 " Plug 'itchyny/lightline.vim' " bottom bar
 " Avoid redundant mode indicator if using lightline:
-" set nowshowmode 
+" set noshowmode 
 
 call plug#end()
 
