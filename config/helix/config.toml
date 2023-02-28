@@ -1,0 +1,14 @@
+theme = "bogster"
+
+[editor]
+color-modes = true
+auto-pairs = false
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.cursor-shape]
+insert = "bar"
+
