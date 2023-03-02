@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=Godot 4
+Comment=Make Games
+GenericName=Game Engine
+Keywords=Game;Engine;3D;
+Exec=/home/dasb/Documents/apps/bin/godot_4/godot_4.elf %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=godot
+Categories=Graphics;Development;
+#MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
+StartupNotify=true
+#Actions=new-window;new-private-window;
+
