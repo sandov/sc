@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
-Name=Godot
+Name=Godot 3
 Comment=Make Games 
 GenericName=Game Engine
 Keywords=Game;Engine;3D;
-Exec=/home/dasb/Documents/apps/bin/godot_3.5/Godot_v3.5.1-stable_x11.64 %u
+Exec=/home/dasb/Documents/apps/bin/godot_3/godot_3.elf %u
 Terminal=false
 X-MultipleArgs=false
 Type=Application
