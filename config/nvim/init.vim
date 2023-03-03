@@ -5,7 +5,9 @@ set softtabstop=0 noexpandtab
 set shiftwidth=4
 
 set nocompatible
+
 set number
+set scrolloff=4
 
 set encoding=utf-8
 set showmatch
