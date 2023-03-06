@@ -8,5 +8,5 @@ rm Godot_*3.*stable*64*.zip
 
 sudo mv Godot_*3.*stable*64 /usr/local/bin/godot3
 
-cp ./res/godot_3.desktop ~/.local/share/applications/
+cp ./res/godot3.desktop ~/.local/share/applications/
 

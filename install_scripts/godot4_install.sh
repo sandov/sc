@@ -6,7 +6,7 @@ unzip Godot_*4.*stable*x86_64*.zip
 
 rm Godot_*4.*stable*x86_64*.zip
 
-mv Godot_*4.*stable*x86_64 /usr/local/bin/godot4
+sudo mv Godot_*4.*stable*x86_64 /usr/local/bin/godot4
 
-cp ./res/godot_4.desktop ~/.local/share/applications/
+cp ./res/godot4.desktop ~/.local/share/applications/
 
