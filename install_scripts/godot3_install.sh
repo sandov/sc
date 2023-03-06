@@ -6,8 +6,7 @@ unzip Godot_*3.*stable*64*.zip
 
 rm Godot_*3.*stable*64*.zip
 
-mkdir -p ~/Documents/apps/bin/godot_3
+sudo mv Godot_*3.*stable*64 /usr/local/bin/godot3
 
-mv Godot_*3.*stable*64 ~/Documents/apps/bin/godot_3/godot_3.elf
+cp ./res/godot3.desktop ~/.local/share/applications/
 
-cp ./res/godot_3.desktop ~/.local/share/applications/
