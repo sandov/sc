@@ -2,7 +2,8 @@ curl -L https://github.com/neovim/neovim/releases/download/stable/nvim.appimage 
 
 chmod +x nvim.appimage
 
-sudo mv nvim.appimage /usr/local/bin/nvim
+sudo mkdir -p /usr/local/bin
+sudo mv ./nvim.appimage /usr/local/bin/nvim
 
 mkdir -p ~/.config/nvim/pack/plugins/start
 mkdir -p ~/.config/nvim/pack/plugins/opt

@@ -7,5 +7,6 @@ sudo mv firefox/ /opt/firefox
 rm ~/.local/share/applications/*firefox*
 cp res/firefox.desktop ~/.local/share/applications/
 
+sudo mkdir -p /usr/local/bin
 sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
 
