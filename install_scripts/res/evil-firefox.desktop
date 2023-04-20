@@ -4,7 +4,7 @@ Name=Evil Firefox
 Comment=Browse the World Wide Web in an evil way
 GenericName=Web Browser
 Keywords=Internet;WWW;Browser;Web;Explorer
-Exec=/opt/evil-firefox/evil-firefox %u
+Exec=/opt/evil-firefox/firefox %u
 Terminal=false
 X-MultipleArgs=false
 Type=Application
@@ -51,7 +51,7 @@ Name[uk]=Відкрити нове вікно
 Name[vi]=Mở cửa sổ mới
 Name[zh_CN]=新建窗口
 Name[zh_TW]=開啟新視窗
-Exec=/opt/evil-firefox/evil-firefox -new-window
+Exec=/opt/evil-firefox/firefox -new-window
 
 [Desktop Action new-private-window]
 Name=Open a New Evil Private Window
@@ -73,4 +73,4 @@ Name[sv]=Öppna ett nytt privat fönster
 Name[tr]=Yeni gizli pencere aç
 Name[uk]=Відкрити нове вікно у потайливому режимі
 Name[zh_TW]=開啟新隱私瀏覽視窗
-Exec=/opt/evil-firefox/evil-firefox -private-window
+Exec=/opt/evil-firefox/firefox -private-window
