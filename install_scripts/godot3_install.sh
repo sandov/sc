@@ -1,4 +1,4 @@
-dl_url=https://downloads.tuxfamily.org/godotengine/3.5.1/Godot_v3.5.1-stable_x11.64.zip
+dl_url=https://github.com/godotengine/godot/releases/download/3.5.2-stable/Godot_v3.5.2-stable_x11.64.zip
 
 curl -L $dl_url -O 
 

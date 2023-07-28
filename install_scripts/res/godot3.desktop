@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Name=Godot 3
-Comment=Make Games 
+Comment=Make Games
 GenericName=Game Engine
 Keywords=Game;Engine;3D;
 Exec=godot3 %u
