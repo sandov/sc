@@ -1,3 +1,6 @@
+sudo apt remove firefox;
+rm -rf ~/.mozilla
+
 wget -O firefox.tar.bz2 'https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US';
 tar xvf firefox.tar.bz2
 rm firefox.tar.bz2
