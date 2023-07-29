@@ -1,0 +1,12 @@
+VS Code
+	File > Preferences > Settings
+
+	Search "Keycode"
+	Select "Keycode" as Keyboard dispatch
+	Window > Title bar style: Custom
+    accept restart
+
+	Window > Menu Bar Visibility: Compact
+	Text Editor > Files:Hot exit: off
+	Restore Windows: None
+    Workbench > Tree: Indent     24

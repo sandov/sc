@@ -1,0 +1,57 @@
+1. Configuracion mouse usando la GUI
+
+    Aceleracion constante
+    Aumentar la sensibilidad de forma que el indicador este bajo la d de Speed.
+
+2. actualizar repostitorios apt
+
+3. Generar claves ssh locales
+
+    y copiar el contenido de la clave publica
+
+4. Logearme en Github desde la version firefox por defecto
+
+    Agregar la clave SSH publica
+
+5. Cerrar navegador
+--------------------------------------------------------
+
+6. descargar sc
+
+sudo apt install git
+
+mkdir Code
+cd Code
+
+git clone git@github.com:sandov/sc
+cd sc/install_scripts
+
+7. instalar firefox y neovim
+
+./firefox_install.sh
+./neovim_install.sh
+
+7. configurar Firefox
+
+Configurar como navegador predeterminado
+Agregar al panel
+cambiar preferencias de firefox
+instalar ublock origin
+instalar "block site" de "ray", recommended check
+
+-----------------------------------------------------------
+
+8. Install Dropbox
+
+https://www.dropbox.com/install-linux
+
+sudo apt install ./dropbox_2020.03.04_amd64.deb
+
+Don't use dpkg -i, because it doesn't install dependencies
+
+Launch and login
+------------------------------------------------------------
+
+copiar configs a ~/.config/
+
+-------------------------------------------------------------
