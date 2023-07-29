@@ -1,0 +1,95 @@
+sudo apt-get update && sudo apt-get upgrade -y
+
+sudo apt install gnome-tweak-tool vim git 
+
+extra:
+	$ sudo apt install mpv make gcc g++
+
+Open Tweaks program
+
+General > Animations *DISABLE*
+
+Keyboard & Mouse > Mouse > Acceleration Profile > Flat
+	
+Firefox
+	Open Firefox > Hamburger menu > Preferences
+
+		Home > "Firefox Home Content" > Disable all checkboxes except for "Web Search"
+
+		General > Tabs > Disable "Ctrl+Tab cycles through tabs in recently used order"
+
+		Search> Search Suggestions > Disable all checkboxes
+
+		Search > Search Shortcutes > untick all search engines
+		
+	open a new tab close the preferences tab
+
+	In new tab, in bookmarks bar, right click Getting Started > Delete
+				     , right click Import Bookmarks > Remove
+				   
+	Search "Ublock Origin", Open the search result that directs to addons.mozilla.org/*
+
+	Install it
+
+	Sign into my Mozilla Account because my bookmarks are there.
+
+	The only thing I have set to sync are my bookmarks, everything else (History, passwords,
+	add-ons) is disabled. This can be configured in Hamburguer > preferences > Sync > "Change..." Button
+	
+Terminal
+	Hamburger > Preferences > Profiles > + > "new profile"
+	                                   > Arrow down > "Set as default"
+	                                   
+	In Firefox, Google "Gogh Linux", click on the first github result
+	
+	execute:
+		bash -c "$(wget -qO- https://git.io/vQgMr)"
+	
+	See what number corresponds to Monokai Dark (as time of writing: 116)
+	
+	Hamburguer > set Monokai Dark as default
+	
+	Disable Terminal bell
+	
+sudo vim /etc/default/keyboard
+	XKBOPTIONS="caps:swapescape"
+
+
+reboot
+
+Install dropbox
+
+	download .deb from https://www.dropbox.com/install-linux
+
+	Best way to install is: 
+
+		$ cd Downloads/
+		$ sudo apt install ./dropbox_2020.03.04_amd64.deb
+		
+	Don't use Ubuntu GUI installer, it's damn slow.
+
+	Don't use dpkg -i, because it doesn't install dependencies.
+	
+	Execute Dropbox app
+
+VS Code
+	Download .deb from visualstudio.com
+	Install it using apt
+	Run the application
+	File > Preferences > Settings
+	Search "Keycode"
+	Select "Keycode" as Keyboard dispatch
+	Window > Title bar style: Custom
+	Window > Menu Bar Visibility: Compact
+	Files:Hot exit: off
+	Restore Windows: None
+	
+Show Desktop
+	https://www.linuxuprising.com/2018/05/how-to-add-show-desktop-icon-to-ubuntu.html
+
+Click to minimize
+	gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+
+Don't show mounted volumes in dock
+	gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
+
