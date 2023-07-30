@@ -19,7 +19,7 @@ Install it
 
 Search "Block Site", install the one from "Ray" that has the "recommended" check
 
-Sign into my Mozilla Account because my bookmarks are there.
+Sign into my Mozilla Account.
 
 The only thing I have set to sync are my bookmarks, everything else (History, passwords,
 add-ons) is disabled. This can be configured in Hamburguer > preferences > Sync > "Change..." Button
