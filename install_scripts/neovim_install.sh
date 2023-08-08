@@ -4,7 +4,7 @@ chmod +x nvim.appimage
 
 sudo mkdir -p /usr/local/bin
 sudo mv ./nvim.appimage /usr/local/bin/nvim
-sudo ln /usr/local/bin/nvim /usr/local/bin/vim
+sudo ln -s /usr/local/bin/nvim /usr/local/bin/vim
 
 mkdir -p ~/.config/nvim/pack/plugins/start
 mkdir -p ~/.config/nvim/pack/plugins/opt
