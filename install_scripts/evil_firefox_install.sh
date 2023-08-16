@@ -14,5 +14,5 @@ sudo mkdir -p /usr/local/bin
 sudo rm /usr/local/bin/evil-firefox
 sudo ln -s /opt/evil-firefox/firefox /usr/local/bin/evil-firefox
 
-sudo convert /opt/evil-firefox/browser/chrome/icons/default/default128.png -channel RGB -negate /opt/evil-firefox/browser/chrome/icons/default/default128.png
+sudo cp ./res/ff-default128-modified.png /opt/evil-firefox/browser/chrome/icons/default/default128.png 
 
