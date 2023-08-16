@@ -1,0 +1,56 @@
+
+1. actualizar repostitorios apt
+
+2. Generar claves ssh locales
+
+    y copiar el contenido de la clave publica
+
+3. Logearme en Github desde la version firefox por defecto
+
+    Agregar la clave SSH publica
+
+4. Cerrar navegador
+--------------------------------------------------------
+
+5. descargar sc
+
+sudo apt install git
+
+mkdir Code
+cd Code
+
+git clone git@github.com:sandov/sc
+cd sc/install_scripts
+
+6. instalar firefox y neovim
+
+./firefox_install.sh
+./neovim_install.sh
+./evil_firefox_install.sh
+
+7. configurar Firefox
+
+Configurar como navegador predeterminado
+Agregar al panel
+cambiar preferencias de firefox
+instalar ublock origin
+instalar "block site" de "ray", recommended check
+
+-----------------------------------------------------------
+
+8. Configurar touchpad
+
+8. Install Dropbox
+
+https://www.dropbox.com/install-linux
+
+sudo apt install ./dropbox_2020.03.04_amd64.deb
+
+Don't use dpkg -i, because it doesn't install dependencies
+
+Launch and login
+------------------------------------------------------------
+
+copiar configs a ~/.config/
+
+-------------------------------------------------------------
