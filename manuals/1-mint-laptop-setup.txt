@@ -1,4 +1,3 @@
-
 1. actualizar repostitorios apt
 
 2. Generar claves ssh locales
@@ -40,7 +39,22 @@ instalar "block site" de "ray", recommended check
 
 8. Configurar touchpad
 
-8. Install Dropbox
+$ echo export MOZ_USE_XINPUT2=1 | sudo tee /etc/profile.d/use-xinput2.sh
+
+$ mkdir -p ~/Documents/util/scripts/io_scripts/
+
+$ cp io_scripts/current/14s_touchpad_scroll_speed.sh ~/Documents/util/scripts/
+
+Add 14s_touchpad_scroll_speed.sh to autostart
+
+9. Configurar parlantes
+
+$ cp io_scripts/current/14s_speakers_toggle.sh ~/Documents/util/scripts/
+
+follow the instructions in:
+	https://gist.github.com/philipperoubert/a4dd97bd94c78a588147c044000a87da
+
+10. Install Dropbox
 
 https://www.dropbox.com/install-linux
 
