@@ -35,9 +35,18 @@ cambiar preferencias de firefox
 instalar ublock origin
 instalar "block site" de "ray", recommended check
 
------------------------------------------------------------
+8. Copiar configs a ~/.config
 
-8. Configurar touchpad
+cd ~/Code/sc/
+cp -r configs/* ~/.config/
+
+-----------------------------------------------------------
+8. Configurar teclado
+	Agregar layout Spanish (Latin America)
+	Untick country flag
+	swap ESC and Caps Lock 
+
+9. Configurar touchpad
 
 $ echo export MOZ_USE_XINPUT2=1 | sudo tee /etc/profile.d/use-xinput2.sh
 
@@ -47,14 +56,14 @@ $ cp io_scripts/current/14s_touchpad_scroll_speed.sh ~/Documents/util/scripts/
 
 Add 14s_touchpad_scroll_speed.sh to autostart
 
-9. Configurar parlantes
+10. Configurar parlantes
 
 $ cp io_scripts/current/14s_speakers_toggle.sh ~/Documents/util/scripts/
 
 follow the instructions in:
 	https://gist.github.com/philipperoubert/a4dd97bd94c78a588147c044000a87da
 
-10. Install Dropbox
+11. Install Dropbox
 
 https://www.dropbox.com/install-linux
 
@@ -63,8 +72,5 @@ sudo apt install ./dropbox_2020.03.04_amd64.deb
 Don't use dpkg -i, because it doesn't install dependencies
 
 Launch and login
-------------------------------------------------------------
 
-copiar configs a ~/.config/
 
--------------------------------------------------------------
