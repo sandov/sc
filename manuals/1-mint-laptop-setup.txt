@@ -44,7 +44,7 @@ cp -r configs/* ~/.config/
 8. Configurar teclado
 	Agregar layout Spanish (Latin America)
 	Untick country flag
-	swap ESC and Caps Lock 
+	Swap ESC and Caps Lock 
 
 9. Configurar touchpad
 
