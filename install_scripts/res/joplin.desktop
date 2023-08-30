@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Joplin
+Comment=Note Taking App
+GenericName=Note Taking App
+Keywords=Notes;Organization;Productivity;
+Categories=Utility
+Exec=/opt/joplin/Joplin.AppImage
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=joplin
+StartupNotify=true
+
