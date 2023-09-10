@@ -1,4 +1,4 @@
-curl -L https://github.com/helix-editor/helix/releases/download/23.05/helix-23.05-aarch64.AppImage -O
+curl -L https://github.com/helix-editor/helix/releases/download/23.05/helix-23.05-x86_64.AppImage -O
 
 chmod +x helix*.AppImage
 
