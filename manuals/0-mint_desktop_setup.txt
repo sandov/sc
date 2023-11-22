@@ -1,22 +1,28 @@
-1. Configuracion mouse usando la GUI
+1. actualizar repostitorios apt
+
+2. Configuracion mouse usando la GUI
 
     Aceleracion constante
     Aumentar la sensibilidad de forma que el indicador este bajo la d de Speed.
 
-2. actualizar repostitorios apt
+3. Configuración teclado usando la GUI
 
-3. Generar claves ssh locales
+	Agregar layout Spanish (Latin American)
+	deshabilitar "Use a country flag"
+	Options > Swap esc and Caps Lock
+
+4. Generar claves ssh locales
 
     y copiar el contenido de la clave publica
 
-4. Logearme en Github desde la version firefox por defecto
+5. Logearme en Github desde la version firefox por defecto
 
     Agregar la clave SSH publica
 
-5. Cerrar navegador
+6. Cerrar navegador
 --------------------------------------------------------
 
-6. descargar sc
+7. descargar sc
 
 sudo apt install git
 
@@ -26,30 +32,42 @@ cd Code
 git clone git@github.com:sandov/sc
 cd sc/install_scripts
 
-7. instalar firefox y neovim
+8. Instalar firefox, neovim, keepassxc
 
 ./firefox_install.sh
 ./neovim_install.sh
+./keepassxc_install.sh
 
-7. configurar Firefox
+9. Obtener archivo contraseñas 
 
-Configurar como navegador predeterminado
-Agregar al panel
-cambiar preferencias de firefox
-instalar ublock origin
-instalar "block site" de "ray", recommended check
+cd ~/Code
+git clone git@github.com:sandov/pw
+
+10. Abrir contraseñas
+
+	Abrir Keepassxc
+	seleccionar archivo
+
+9. configurar Firefox
+
+	Configurar como navegador predeterminado
+	Agregar al panel
+	cambiar preferencias de firefox
+	instalar ublock origin
+	instalar "block site" de "ray", recommended check
+	logear a perfil de firefox usando contraseña en KeepassXC
 
 -----------------------------------------------------------
 
-8. Install Dropbox
+10. Install Dropbox
 
-https://www.dropbox.com/install-linux
+	https://www.dropbox.com/install-linux
 
-sudo apt install ./dropbox_2020.03.04_amd64.deb
+	sudo apt install ./dropbox_2020.03.04_amd64.deb
 
-Don't use dpkg -i, because it doesn't install dependencies
+	Don't use dpkg -i, because it doesn't install dependencies
 
-Launch and login
+	Launch and login
 ------------------------------------------------------------
 
 copiar configs a ~/.config/
