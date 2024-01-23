@@ -1,42 +1,35 @@
-1. actualizar repostitorios apt
-
-2. Configuracion mouse usando la GUI
+1. Configuracion mouse usando la GUI
 
     Aceleracion constante
     Aumentar la sensibilidad de forma que el indicador este bajo la d de Speed.
 
-3. Configuración teclado usando la GUI
+2a. actualizar apt, obtener sc, instalar aplicaciones
+
+	sudo apt update && sudo apt upgrade && sudo apt install git
+
+	mkdir Code
+	cd Code
+	git clone https://github.com/sandov/sc
+	cd sc/install_scripts
+	./firefox_install
+	./neovim_install
+	./keepassxc_install
+	./evil_firefox_install
+
+2b. Configuración teclado usando la GUI
 
 	Agregar layout Spanish (Latin American)
 	deshabilitar "Use a country flag"
 	Options > Swap esc and Caps Lock
 
+	Language > todo EN_dk
+
 4. Generar claves ssh locales
 
     y copiar el contenido de la clave publica
+    Agregar la clave SSH publica en Github.com
 
-5. Logearme en Github desde la version firefox por defecto
-
-    Agregar la clave SSH publica
-
-6. Cerrar navegador
 --------------------------------------------------------
-
-7. descargar sc
-
-sudo apt install git
-
-mkdir Code
-cd Code
-
-git clone git@github.com:sandov/sc
-cd sc/install_scripts
-
-8. Instalar firefox, neovim, keepassxc
-
-./firefox_install.sh
-./neovim_install.sh
-./keepassxc_install.sh
 
 9. Obtener archivo contraseñas 
 
