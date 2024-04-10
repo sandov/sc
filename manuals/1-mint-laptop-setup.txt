@@ -54,13 +54,13 @@
 -----------------------------------------------------------
 9. Configurar touchpad
 
-$ echo export MOZ_USE_XINPUT2=1 | sudo tee /etc/profile.d/use-xinput2.sh
+	$ echo export MOZ_USE_XINPUT2=1 | sudo tee /etc/profile.d/use-xinput2.sh
 
-$ mkdir -p ~/Documents/util/scripts/
+	$ mkdir -p ~/Documents/util/scripts/
 
-$ cp io_scripts/14s_touchpad_scroll_speed.sh ~/Documents/util/scripts/
+	$ cp ../io_scripts/14s_touchpad_scroll_speed.sh ~/Documents/util/scripts/
 
-Add 14s_touchpad_scroll_speed.sh to autostart
+	Add 14s_touchpad_scroll_speed.sh to autostart
 
 10. Configurar parlantes
 
@@ -71,8 +71,9 @@ Add 14s_touchpad_scroll_speed.sh to autostart
 
 11. Install Dropbox
 
-https://www.dropbox.com/install-linux
+	https://www.dropbox.com/install-linux
 
-Launch and login
+	Launch and login
 
+12. Import main-storage
 
