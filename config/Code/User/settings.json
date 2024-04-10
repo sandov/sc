@@ -1,12 +1,15 @@
 {
-    "workbench.colorTheme": "Default Dark+ Experimental",
-    "keyboard.dispatch": "keyCode",
+    "workbench.startupEditor": "none",
     "window.titleBarStyle": "custom",
-    "window.menuBarVisibility": "compact",
+    "keyboard.dispatch": "keyCode",
     "files.hotExit": "off",
     "window.restoreWindows": "none",
-    "workbench.tree.indent": 24,
+    "workbench.tree.indent": 30,
     "editor.fontSize": 16,
-    "security.workspace.trust.untrustedFiles": "open",
-    "security.workspace.trust.startupPrompt": "never"
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.banner": "never",
+    "workbench.activityBar.location": "hidden",
+    "window.commandCenter": false,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 4,
 }
