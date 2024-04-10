@@ -18,4 +18,5 @@
     "search.decorations.badges": false,
     "workbench.editor.decorations.colors": false,
     "workbench.editor.decorations.badges": false,
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
 }
