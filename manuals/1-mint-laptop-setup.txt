@@ -2,62 +2,63 @@
 	sudo apt update
 	sudo apt upgrade
 
-2. descargar sc
+2. Configurar teclado
+	Agregar layout Spanish (Latin America)
+	Untick country flag
+	Swap ESC and Caps Lock 
+	cambiar idioma a en-dk
+
+3. descargar sc
 
 	sudo apt install git
 	mkdir Code
 	cd Code
 	git clone https://github.com/sandov/sc
 
-3. instalar programas
+4. instalar programas
 
 	./firefox_install.sh
 	./neovim_install.sh
 	./evil_firefox_install.sh
 	./keepassxc
 
-4. Actualizar claves ssh github
+5. Actualizar claves ssh github
 
 	ssh-keygen -t ed25519 -C "Diego Sandoval"
 	cat .ssh/id*.pub
 
 	copypaste del contenido en github.com/
 
-5. Descargar pw
+6. Descargar pw
 	cd Code/
 	git clone git@github.com:sandov/pw
 
-6. Abrir Keepassxc
+7. Abrir Keepassxc
 
 	cargar archivo pw
 
 --------------------------------------------------------
 
-5. configurar Firefox
+8. configurar Firefox
 
 	Configurar como navegador predeterminado
 	Agregar al panel
 	Login firefox
+	Install "Gradient 4" theme
 
-6. Copiar configs a ~/.config
+9. Copiar configs a ~/.config
 
-cd ~/Code/sc/
-cp -r configs/* ~/.config/
+	cd ~/Code/sc/
+	cp -r configs/* ~/.config/
 
 -----------------------------------------------------------
-7. Configurar teclado
-	Agregar layout Spanish (Latin America)
-	Untick country flag
-	Swap ESC and Caps Lock 
-	cambiar idioma a en-dk
-
 9. Configurar touchpad
 
 $ echo export MOZ_USE_XINPUT2=1 | sudo tee /etc/profile.d/use-xinput2.sh
 
 $ mkdir -p ~/Documents/util/scripts/
 
-$ cp io_scripts/current/14s_touchpad_scroll_speed.sh ~/Documents/util/scripts/
+$ cp io_scripts/14s_touchpad_scroll_speed.sh ~/Documents/util/scripts/
 
 Add 14s_touchpad_scroll_speed.sh to autostart
 
