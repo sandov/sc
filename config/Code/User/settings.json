@@ -12,4 +12,8 @@
     "window.commandCenter": false,
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.value": 4,
+    "explorer.decorations.badges": false,
+    "explorer.decorations.colors": false,
+    "search.decorations.colors": false,
+    "search.decorations.badges": false,
 }
