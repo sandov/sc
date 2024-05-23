@@ -3,3 +3,5 @@
 	email = 16181660+sandov@users.noreply.github.com
 [core]
 	editor = nvim
+[init]
+	defaultBranch = master
