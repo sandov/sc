@@ -56,11 +56,7 @@
 
 	$ echo export MOZ_USE_XINPUT2=1 | sudo tee /etc/profile.d/use-xinput2.sh
 
-	$ mkdir -p ~/Documents/util/scripts/
-
-	$ cp ../io_scripts/14s_touchpad_scroll_speed.sh ~/Documents/util/scripts/
-
-	Add 14s_touchpad_scroll_speed.sh to autostart
+	Add io/scripts/14s_touchpad_scroll_speed.sh to autostart
 
 10. Configurar parlantes
 
