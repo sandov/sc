@@ -1,4 +1,4 @@
-dl_url=https://github.com/godotengine/godot/releases/download/4.1.3-stable/Godot_v4.1.3-stable_linux.x86_64.zip
+dl_url=https://github.com/godotengine/godot/releases/download/4.2.2-stable/Godot_v4.2.2-stable_linux.x86_64.zip
 
 curl -L $dl_url -O 
 
