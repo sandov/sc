@@ -73,3 +73,13 @@
 
 12. Import main-storage
 
+13. Cinnamon tweaks
+
+	Configure menu
+		change icon
+		disable "show recents"
+
+	Effects > disable all
+	
+	Notifications > disable
+	remove notifications applet
