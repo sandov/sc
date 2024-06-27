@@ -8,3 +8,10 @@ rm ./go1.*.linux-amd64.tar.gz
 
 echo "export GOPATH=\$HOME/.go" >> ~/.profile
 echo "export PATH=\$PATH:/usr/local/go/bin:\$GOPATH/bin" >> ~/.profile
+
+# Notes:
+#
+# - reboot after installing, so that .profile changes take effect
+# - You may need to `sudo apt install libc-dev` to be able to install some
+# packages with `go install`
+#
