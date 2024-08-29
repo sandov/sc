@@ -1,4 +1,4 @@
-wget -O keepassxc.AppImage 'https://github.com/keepassxreboot/keepassxc/releases/download/2.7.5/KeePassXC-2.7.5-x86_64.AppImage';
+wget -O keepassxc.AppImage 'https://github.com/keepassxreboot/keepassxc/releases/download/2.7.9/KeePassXC-2.7.9-x86_64.AppImage';
 
 sudo mkdir -p /opt/keepassxc/
 
