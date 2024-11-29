@@ -1,4 +1,4 @@
-dl_url="https://go.dev/dl/go1.23.2.linux-amd64.tar.gz"
+dl_url="https://go.dev/dl/go1.23.3.linux-amd64.tar.gz"
 
 curl -L $dl_url -O
 
