@@ -1,4 +1,4 @@
-curl -L https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-linux-x86_64.appimage -O
+curl -L https://github.com/neovim/neovim/releases/download/v0.12.6/nvim-linux-x86_64.appimage -O
 mv nvim*.appimage nvim.appimage
 
 chmod +x nvim.appimage
